@@ -7,7 +7,7 @@
 
 main {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1140px;
   background-color: #fff;
 
 }
@@ -27,7 +27,7 @@ main {
 
 .overlay,
 .welcome-banner>.overlay {
-  width: 1280px;
+  width: 1140px;
   min-height: 600px;
   left: 0;
   top: 0;
@@ -163,7 +163,7 @@ main {
 }
 
 .event-info-section {
-  width: 1280px;
+  width: 1140px;
   position: relative;
   min-height: 300px;
   margin: 0 auto;
@@ -189,12 +189,12 @@ main {
 }
 
 .event-overlay h3 {
-  font-family: inter;
+  font-family: 'inter';
   font-size: 20px;
 }
 
 .event-overlay h3>span {
-  font-family: inter;
+  font-family: 'inter';
   color: #FF0000;
   font-size: 20px;
   margin-right: 5px;
@@ -208,14 +208,14 @@ main {
 }
 
 .join-now-btn a {
-  font-family: inter;
+  font-family: 'inter';
   text-decoration: none;
   color: #fff;
   font-weight: 500;
 }
 
 .comming-soon {
-  width: 1280px;
+  width: 1140px;
   margin: 50px 10px;
 }
 
@@ -254,7 +254,7 @@ main {
 
 .left-col>h4 {
   color: #FF0000;
-  font-family: inter;
+  font-family: 'inter';
   font-size: 20px;
   font-weight: 500;
 }
@@ -265,14 +265,14 @@ main {
 
 .left-col>p,
 .right-col>p {
-  font-family: inter;
+  font-family: 'inter';
   font-weight: 400;
   font-size: 17px;
 }
 
 .right-col>h4 {
   color: #FF0000;
-  font-family: inter;
+  font-family: 'inter';
   font-size: 40px;
   font-weight: 600;
 }
@@ -285,16 +285,293 @@ main {
 .holiday-functional {
   display: flex;
   flex-flow: column wrap;
-  row-gap: 20px;
+  row-gap: 10px;
   column-gap: 20px;
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 40px auto;
 }
 
-.inner-section1 {
+.inner-section1 .top-content {
   display: flex;
   flex-flow: column nowrap;
   text-align: center;
-  row-gap: 15px;
+  row-gap: 10px;
+  padding: 0px 50px;
 
+}
+
+.inner-section1 .top-content h4 {
+  font-family: 'inter';
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.top-content h2 {
+  /* Holidays Sale 50% */
+  font-weight: 900;
+  font-size: 62px;
+  color: #070211;
+}
+
+.top-content h2 span {
+  color: #FF0000;
+}
+
+.top-content p {
+  font-family: 'inter';
+  font-weight: 400;
+  font-size: 17px;
+  padding: 0px 80px;
+  text-align: center;
+}
+
+.inner-section2 {
+  margin: -50px auto 20px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 20px;
+  justify-content: flex-start;
+  background: url('Images/Rectangle\ 2.png');
+  background-position: bottom center;
+  background-size: contain;
+  min-height: 315px;
+  background-repeat: no-repeat;
+}
+
+.right-col {
+  flex-basis: 40%;
+  align-self: center;
+}
+
+.left-col {
+  flex-basis: 60%;
+}
+
+.right-col img {
+  width: 100%;
+}
+
+.inner-section2 .left-col img {
+  margin-top: 55px;
+  margin-left: 30px;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.portfolio-section {
+  margin: 40px auto;
+}
+
+.portfolio-section>.content-section {
+  margin: 30px 0px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.content-section .section-subtitle {
+  font-family: 'inter';
+  color: #FF0000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content-section .section-title {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.content-section .section-description {
+  color: #03030389;
+  font-family: 'inter';
+  font-size: 17px;
+  font-weight: 400;
+  width: 70%;
+}
+
+.portfolio-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 15px;
+
+}
+
+.portfolio-images div {
+  border-radius: 15px;
+  overflow: hidden;
+  height: 370px;
+}
+
+.portfolio-images div img {
+  transition-duration: 0.4s;
+  width: 100%;
+}
+
+.portfolio-images div>img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.newsletter-section {
+  margin: 40px auto;
+  text-align: center;
+
+}
+
+.newsletter-section .inner-section {
+  min-height: 400px;
+  background: #ff00000d;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 10px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-section .inner-section>img {
+  align-self: center;
+  width: 100px;
+}
+
+.newsletter-section .section-description {
+  font-family: 'inter';
+  padding: 0px 100px 30px 100px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #03030389;
+
+}
+
+.newsletter-section .section-title {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.newsletter-form {
+  background: #fff;
+  border-radius: 50px;
+}
+
+.newsletter-form input {
+  font-family: 'inter';
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  background: #ffffff;
+}
+
+.newsletter-form input:focus {
+  border: none;
+  outline: none;
+}
+
+.newsletter-form input[type='placeholder'] {
+  font-size: 16px;
+}
+
+.newsletter-form input[type='submit'] {
+  border-radius: 0px 50px 50px 0px;
+  background-color: #FF0000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500px;
+  cursor: pointer;
+}
+
+footer {
+  background: #070211;
+  min-height: 400px;
+  color: #fff;
+  font-family: 'inter';
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .inner-section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  text-align: center;
+  margin: 40px auto;
+  width: 1140px;
+}
+
+.footer-top {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff2a;
+}
+
+.footer-top .address {
+  font-family: 'inter';
+  text-align: left;
+  width: 25%;
+  font-size: 18px;
+  line-height: 30px;
+
+}
+
+.contact-info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.contact-info span {
+  display: flex;
+  font-family: 'inter';
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.contact-info>span>img {
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.social-media {
+
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  min-height: 80px;
+
+}
+
+.social-media a img {
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.copyright-section {
+  padding-top: 30px;
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid #ffffff2a;
+
+}
+
+.copyright-text {
+  font-family: 'inter';
+  font-size: 19px;
+}
+
+.unsubscribe-text {
+  font-family: 'inter';
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
 }
