@@ -281,3 +281,20 @@ main {
   padding: 70px;
 
 }
+
+.holiday-functional {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  max-width: 1280px;
+  margin: 40px auto;
+}
+
+.inner-section1 {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  row-gap: 15px;
+
+}
